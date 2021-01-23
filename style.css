@@ -1,0 +1,103 @@
+/* CSS Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#header {
+  background-color: #34D399;
+  height: 125px;
+  border-bottom-left-radius: 15px;
+}
+#header h1 {
+  color: white;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+#header ul {
+  list-style: none;
+  
+}
+#header ul li {
+  display: inline;
+  float: right;
+  margin-top: 15px;
+}
+#header ul li a {
+  color: white;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+img {
+  display: block;
+  height: 410px;
+  padding-top: 75px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.intro p {
+  font-size: 30px;
+  text-align: center;
+  margin: 50px;
+  margin-top: 0%;
+  color: grey;
+  font-weight: bold;
+}
+span {
+  color: #34D399;
+}
+.off-white {
+  height: 200px;
+  background-color: #F5F7FA;
+}
+.off-white h2 {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+.off-white p {
+  max-width: 500px;
+  margin: auto;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.white {
+  height: 200px;
+}
+.white h2 {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+.white p {
+  max-width: 500px;
+  margin: auto;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.white button {
+  
+}
+footer {
+  background-color: #34D399;
+  color: white;
+  text-align: center;
+  height: 200px;
+  font-size: 22px;
+  padding-top: 60px;
+  border-top-right-radius: 15px;
+}
+footer h3 {
+  padding-bottom: 15px;
+}
+footer ul li {
+  display: inline;
+  margin: 30px;
+}
+footer ul li a {
+  color: white;
+  font-size: 19px;
+}
