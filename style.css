@@ -3,6 +3,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: Roboto;
 }
 #header {
   background-color: #34D399;
@@ -79,7 +80,8 @@ span {
   margin-bottom: 10px;
 }
 .white button {
-  
+  display: block;
+  max-width: 500px;
 }
 footer {
   background-color: #34D399;
