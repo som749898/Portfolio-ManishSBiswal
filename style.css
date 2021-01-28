@@ -45,11 +45,11 @@ img {
   color: grey;
   font-weight: bold;
 }
-span {
+.web {
   color: #34D399;
 }
 .off-white {
-  height: 200px;
+  height: 250px;
   background-color: #F5F7FA;
 }
 .off-white h2 {
@@ -65,7 +65,7 @@ span {
   margin-bottom: 10px;
 }
 .white {
-  height: 200px;
+  height: 250px;
 }
 .white h2 {
   text-align: center;
@@ -82,6 +82,24 @@ span {
 .white button {
   display: block;
   max-width: 500px;
+  margin: auto;
+  color: #F5F7FA;
+  background-color: #34D399;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.off-white button {
+  display: block;
+  max-width: 500px;
+  margin: auto;
+  color: #34D399;
+  background-color: #F5F7FA;
+  border: 1px solid #34D399;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
 }
 footer {
   background-color: #34D399;
@@ -102,4 +120,80 @@ footer ul li {
 footer ul li a {
   color: white;
   font-size: 19px;
+}
+
+.blogs {
+  color: #34D399;
+  height: 150px;
+  text-align: center;
+  margin-top: 100px;
+}
+.read {
+  color: grey;
+}
+.off-white-blogs {
+  height: 300px;
+}
+.off-white-blogs h1 {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+.off-white-blogs small {
+  display: block;
+  max-width: 500px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+.off-white-blogs p {
+  max-width: 500px;
+  margin: auto;
+  padding-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.4rem;
+}
+.off-white-blogs button{
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #34D399;
+  color: #ffffff;
+  margin-top: 15px;
+  font-size: 18px;
+}
+.white-blogs {
+  height: 300px;
+}
+.white-blogs h1 {
+  max-width: 500px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.white-blogs small {
+  display: block;
+  max-width: 500px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+.white-blogs p {
+  max-width: 500px;
+  margin: auto;
+  padding-bottom: 10px;
+  line-height: 1.4rem;
+  font-size: 18px;
+}
+.white-blogs button{
+  display: block;
+  margin: auto;
+  font-size: 18px;
+  border: none;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #34D399;
+  border-radius: 5px;
+  margin-top: 15px;
 }
